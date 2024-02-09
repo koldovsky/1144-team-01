@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BenchNine&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.button,
+.button-hightlight {
+  font-family: "BenchNine", sans-serif;
+}
+.index__titles-underscore {
+  height: 32px;
+  width: auto;
+}
