@@ -1,5 +1,10 @@
 .good-cigars{
-    background-color: var(--background-color); 
+    background-image:  url("../img/background-gray-wall.webp");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    text-align: center;
+    color: var(--text-color);
 }
 .good-cigars__title{
     font-size: 42px;
