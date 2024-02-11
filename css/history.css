@@ -1,5 +1,5 @@
 .history{
-    background-color: rgb(27, 25, 26);   
+    background-color: var(--background-color); 
 }
 .history__title{
     font-size: 42px;
