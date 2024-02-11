@@ -1,6 +1,5 @@
 .header__logo-image{
     width: 177px;
-    max-width: 100%;
 }
 .header{
     background-image:  url("../img/header-background.webp");
