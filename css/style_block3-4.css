@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +14,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgb(27, 25, 26);
+    background-color: rgb(27, 25, 26);
 }
 
 .partners-title {
@@ -21,34 +22,37 @@ body, html {
     font-weight: bold;
     color: #c5a35c;
     font-size: 51px;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
 
 .carousel {
     display: flex;
     transition: transform 0.8s ease-in-out;
-  }
-  
-  .carousel-image {
-    width: 520px; /* або будь-яка інша фіксована ширина */
+}
+
+.carousel-image {
+    width: 520px;
+    /* або будь-яка інша фіксована ширина */
     height: auto;
-  }
-  
-.line{
+}
+
+.line {
     margin-top: -30px;
 }
 
-.partners-text{
+.partners-text {
     font-family: 'Roboto', sans-serif;
-    color:#d0c8b9;
+    color: #d0c8b9;
     font-size: 21px;
 }
+
 .pictures {
     max-height: 131px;
 }
+
 /* slider */
 
-.container{
+.container {
     margin-top: 25px;
     margin-left: 50px;
 }
@@ -57,8 +61,8 @@ body, html {
     position: relative;
     overflow: hidden;
 }
-  
-.carousel-image{
+
+.carousel-image {
     user-select: none;
 }
 
@@ -67,11 +71,12 @@ body, html {
     max-width: 1200px;
     gap: 130px;
 }
-  
+
 .carousel.sliding-transition {
     transition: transform 0.5s ease-in-out;
 }
-  
+
+
 .arrow-button {
     margin-top: -100px;
     position: absolute;
@@ -85,44 +90,44 @@ body, html {
     align-items: center;
     border: none;
     background: none;
-    color:rgb(209, 209, 209);
+    color: rgb(209, 209, 209);
 }
 
-.pictures{
+.pictures {
     height: 155px;
 }
 
 .left-arrow {
     left: 20px;
 }
-  
+
 .right-arrow {
     right: 20px;
 }
 
 /* next section */
 
-.cigarette{
+.cigarette {
     padding-right: 80px;
     padding-left: 80px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
     height: 50vh;
-    background: linear-gradient(rgba(33, 32, 32, 0.84),rgba(33, 32, 32, 0.84)),url('../img/background.jpg');
+    background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url('../img/background.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
-    align-items:center;
+    align-items: center;
     max-width: 280px;
 }
 
-.uniq{
+.uniq {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 44px;
@@ -130,7 +135,7 @@ body, html {
     margin-right: 25px;
 }
 
-.cigarette-text{
+.cigarette-text {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 17px;
