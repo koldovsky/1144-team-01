@@ -1,0 +1,9 @@
+.good-cigars{
+    background-color: var(--background-color); 
+}
+.good-cigars__title{
+    font-size: 42px;
+}
+.good-cigars__text{
+    font-size: 17px;
+}
