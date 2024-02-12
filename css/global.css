@@ -14,6 +14,8 @@
   --title-color: #c5a35c;
   --button-hightlight-color: #c5a35c;
   --alternative-button-hightlight-color: #947a44;
+  --description-text-color: #d0c8b9;
+  --faq-divider-color: #4d4d4d;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -78,4 +80,8 @@ a:active {
 .button-hightlight:hover {
   background-color: var(--alternative-button-hightlight-color);
   text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
