@@ -7,13 +7,13 @@
   box-sizing: border-box;
 }
 :root {
-  --alternative-background-color:#c5a35c ;
+  --alternative-background-color: #212020;
   --text-color: white;
   --alternative-text-color: black;
-  --background-color:#1b191a;
-  --title-color:#c5a35c;
-  --button-hightlight-color:#c5a35c ;
-  --alternative-button-hightlight-color:#947a44 ;
+  --background-color: #1b191a;
+  --title-color: #c5a35c;
+  --button-hightlight-color: #c5a35c;
+  --alternative-button-hightlight-color: #947a44;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -42,7 +42,7 @@ h6 {
 }
 .index__titles-underscore {
   height: 32px;
-  width: 330px;
+  width: 485px;
 }
 a {
   color: inherit;
@@ -62,21 +62,20 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
-.button{
+.button {
   border: 2px solid var(--text-color);
   padding: 10px;
 }
-.button:hover{
-  background-color:var(--text-color);
+.button:hover {
+  background-color: var(--text-color);
   color: var(--alternative-text-color);
   text-decoration: none;
 }
-.button-hightlight{
-  background-color:var(--button-hightlight-color);
+.button-hightlight {
+  background-color: var(--button-hightlight-color);
   padding: 12px;
-  
 }
-.button-hightlight:hover{
-  background-color:var(--alternative-button-hightlight-color);
+.button-hightlight:hover {
+  background-color: var(--alternative-button-hightlight-color);
   text-decoration: none;
 }

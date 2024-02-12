@@ -1,18 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap");
+@import url(global.css);
+@import url(header.css);
 
 .blog {
-  background-color: darkgray;
+  background-color: var(--background-color);
 }
 .blog__content {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
-.blog__title{
-    font-family: BenchNine;
-    color: rgb(197, 163, 92);
+.blog__post {
+  border: 1px solid black;
 }
-.blog__post{
-    border: 1px solid black;
-}
-.blog__more{
-    text-align: center;
+.blog__more {
+  text-align: center;
 }
