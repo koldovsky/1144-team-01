@@ -12,10 +12,11 @@
   --alternative-text-color: black;
   --background-color: #1b191a;
   --title-color: #c5a35c;
-  --button-hightlight-color: #c5a35c;
-  --alternative-button-hightlight-color: #947a44;
+  --button-highlight-color: #c5a35c;
+  --alternative-button-highlight-color: #947a44;
   --description-text-color: #d0c8b9;
   --faq-divider-color: #4d4d4d;
+  --blog-border-color: rgba(33, 39, 54, 0.12);
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -25,7 +26,7 @@ img {
   width: 100%;
 }
 .button,
-.button-hightlight,
+.button-highlight,
 h1,
 h2,
 h3,
@@ -73,12 +74,12 @@ a:active {
   color: var(--alternative-text-color);
   text-decoration: none;
 }
-.button-hightlight {
-  background-color: var(--button-hightlight-color);
+.button-highlight {
+  background-color: var(--button-highlight-color);
   padding: 12px;
 }
-.button-hightlight:hover {
-  background-color: var(--alternative-button-hightlight-color);
+.button-highlight:hover {
+  background-color: var(--alternative-button-highlight-color);
   text-decoration: none;
 }
 .container {
