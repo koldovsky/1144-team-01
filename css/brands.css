@@ -1,7 +1,7 @@
 .brands {
   height: 107vh;
   flex-direction: column;
-  background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url('../img/background.jpg');
+  background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url('../img/brands/backgroung-brand.webp');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
