@@ -81,7 +81,7 @@
     margin-bottom: 50px;
 }
 .header__notice{
-    background-color: var(--alternative-background-color);
+    background-color: var(--index-header-alternative-background-color);
     padding: 20px;
 }
 .header__link{
