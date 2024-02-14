@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 :root {
+  --header-nav-background:#1b191a;
   --index-header-alternative-background-color:#c5a35c ;
   --alternative-background-color: #212020;
   --text-color: white;
@@ -69,6 +70,7 @@ a:active {
 .button {
   border: 2px solid var(--text-color);
   padding: 10px;
+  font-weight: bold;
 }
 .button:hover {
   background-color: var(--text-color);
@@ -78,6 +80,7 @@ a:active {
 .button-highlight {
   background-color: var(--button-highlight-color);
   padding: 12px;
+  font-weight: bold;
 }
 .button-highlight:hover {
   background-color: var(--alternative-button-highlight-color);
@@ -86,4 +89,8 @@ a:active {
 .container {
   max-width: 1200px;
   margin: auto;
+}
+.fixed{
+  width: 100%;
+  position: fixed;
 }
