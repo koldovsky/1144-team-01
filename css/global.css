@@ -19,6 +19,7 @@
   --description-text-color: #d0c8b9;
   --faq-divider-color: #4d4d4d;
   --blog-border-color: rgba(33, 39, 54, 0.12);
+  --form-background-color: #242424;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
