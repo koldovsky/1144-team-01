@@ -2,7 +2,15 @@
 @import url(header.css);
 @import url(about.css);
 @import url(brands.css);
+<<<<<<< HEAD
 @import url(blog.css);
 @import url(partners_style.css);
+=======
+@import url(index-blog.css);
+@import url(faq.css);
+@import url(style_block3-4.css);
+>>>>>>> b53755e2150c8ae3b9a8b1fcab7b710e5e553f98
 @import url(history.css);
 @import url(good-cigars.css);
+@import url(contacts.css);
+@import url(footer.css);

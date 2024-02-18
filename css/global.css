@@ -7,13 +7,19 @@
   box-sizing: border-box;
 }
 :root {
-  --alternative-background-color:#c5a35c ;
+  --header-nav-background:#1b191a;
+  --index-header-alternative-background-color:#c5a35c ;
+  --alternative-background-color: #212020;
   --text-color: white;
   --alternative-text-color: black;
-  --background-color:#1b191a;
-  --title-color:#c5a35c;
-  --button-hightlight-color:#c5a35c ;
-  --alternative-button-hightlight-color:#947a44 ;
+  --background-color: #1b191a;
+  --title-color: #c5a35c;
+  --button-highlight-color: #c5a35c;
+  --alternative-button-highlight-color: #947a44;
+  --description-text-color: #d0c8b9;
+  --faq-divider-color: #4d4d4d;
+  --blog-border-color: rgba(33, 39, 54, 0.12);
+  --form-background-color: #242424;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -23,7 +29,7 @@ img {
   width: 100%;
 }
 .button,
-.button-hightlight,
+.button-highlight,
 h1,
 h2,
 h3,
@@ -42,7 +48,7 @@ h6 {
 }
 .index__titles-underscore {
   height: 32px;
-  width: 330px;
+  width: 485px;
 }
 a {
   color: inherit;
@@ -62,21 +68,31 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
-.button{
+.button {
   border: 2px solid var(--text-color);
   padding: 10px;
+  font-weight: bold;
 }
-.button:hover{
-  background-color:var(--text-color);
+.button:hover {
+  background-color: var(--text-color);
   color: var(--alternative-text-color);
   text-decoration: none;
 }
-.button-hightlight{
-  background-color:var(--button-hightlight-color);
+.button-highlight {
+  background-color: var(--button-highlight-color);
   padding: 12px;
-  
+  font-weight: bold;
 }
-.button-hightlight:hover{
-  background-color:var(--alternative-button-hightlight-color);
+.button-highlight:hover {
+  background-color: var(--alternative-button-highlight-color);
   text-decoration: none;
 }
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.fixed{
+  width: 100%;
+  position: fixed;
+}
+

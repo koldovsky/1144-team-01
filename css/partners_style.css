@@ -52,10 +52,11 @@ html {
 
 /* slider */
 
-.container {
+/*.container {
     margin-top: 25px;
     margin-left: 50px;
-}
+}*/
+/*Rename this class, cuz we have the same in global.cs*/
 
 .carousel-container {
     position: relative;
