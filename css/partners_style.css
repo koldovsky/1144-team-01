@@ -30,17 +30,10 @@ html {
     transition: transform 0.8s ease-in-out;
 }
 
-/* Ваши текущие стили */
 .carousel-image {
     width: 520px;
+    /* або будь-яка інша фіксована ширина */
     height: auto;
-}
-
-/* Медиа-запрос для экранов меньше 600px */
-@media (max-width: 600px) {
-    .carousel-image {
-        width: 100%;
-    }
 }
 
 .line {
@@ -59,7 +52,7 @@ html {
 
 /* slider */
 
-.partner-container {
+.partner-сontainer {
     margin-top: 25px;
     margin-left: 50px;
 }
