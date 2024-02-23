@@ -3,33 +3,36 @@
     background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url("../img/contact-form/smoke-and-cigar.webp");
     background-position: center;
     background-repeat: no-repeat;
-    margin-right: auto;
-    margin-left: auto;
-    background-size: 100%;
+    margin-inline: auto;
+    background-size: cover;
+    height: 180vw;
+    max-height: 700px;
 }
 
 .main-area {
-    width: 60%;
-    background-color:var(--background-color); 
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
+    width: 90%;
+    max-height: 580px;
+    background-color: var(--background-color);
+    margin-inline: auto;
+    max-width: 700px;
     text-align: center;
+    position: relative;top:20%;
     padding: 5%;
 }
 
+
 .contact__title {
-    font-size: 55px;
-    padding-bottom: 7%;
+    font-size: 33px;
+    padding-bottom: 5%;
+    text-transform: uppercase;
 }
 
 .contact__description {
     font-size: 18px;
-    padding: 7%;
+    padding: 5%;
+    line-height: 27px;
 }
 
 .contact__button {
-margin-top: 30px
+    margin-top: 18px  
 }
-
-
