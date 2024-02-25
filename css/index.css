@@ -2,7 +2,10 @@
 @import url(header.css);
 @import url(about.css);
 @import url(brands.css);
-@import url(blog.css);
-@import url(style_block3-4.css);
+@import url(index-blog.css);
+@import url(faq.css);
+@import url(partners_style.css);
 @import url(history.css);
 @import url(good-cigars.css);
+@import url(contacts.css);
+@import url(footer.css);

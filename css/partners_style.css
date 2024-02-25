@@ -25,12 +25,12 @@ html {
     letter-spacing: 2px;
 }
 
-.carousel {
+.partners-carousel {
     display: flex;
     transition: transform 0.8s ease-in-out;
 }
 
-.carousel-image {
+.carousel-image-partners {
     width: 520px;
     /* або будь-яка інша фіксована ширина */
     height: auto;
@@ -52,12 +52,13 @@ html {
 
 /* slider */
 
-.container {
+.partner-сontainer {
     margin-top: 25px;
     margin-left: 50px;
 }
+/*Rename this class, cuz we have the same in global.cs*/
 
-.carousel-container {
+.partners-carousel-container {
     position: relative;
     overflow: hidden;
 }
