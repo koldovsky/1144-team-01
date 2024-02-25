@@ -1,0 +1,10 @@
+.founders {
+    background-image: url(../img/background-gray-wall.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
