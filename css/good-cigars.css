@@ -35,6 +35,12 @@
 .good-cigars-seed__image img {
   max-width: 100%;
 }
+.good-cigars-seed__list {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
 .good-cigars-seed__title {
   font-size: 22px;
   margin-bottom: 20px;
@@ -46,15 +52,22 @@
   max-width: 600px;
   text-align: right;
   font-family: Roboto, sans-serif;
+  color: var(--text-color-light);
 }
 .good-cigars-seed-quality {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--background-colbackground-color-quality);
+  background-color: var(--background-color-quality);
 }
 .good-cigars-quality__image img {
   max-width: 100%;
+}
+.good-cigars-seed-quality__list {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .good-cigars-seed-quality__title {
   font-size: 22px;
@@ -67,4 +80,5 @@
   max-width: 600px;
   text-align: left;
   font-family: Roboto, sans-serif;
+  color: var(--text-color-light);
 }
