@@ -7,8 +7,8 @@
   box-sizing: border-box;
 }
 :root {
-  --header-nav-background:#1b191a;
-  --index-header-alternative-background-color:#c5a35c ;
+  --header-nav-background: #1b191a;
+  --index-header-alternative-background-color: #c5a35c;
   --alternative-background-color: #212020;
   --text-color: white;
   --alternative-text-color: black;
@@ -20,6 +20,8 @@
   --faq-divider-color: #4d4d4d;
   --blog-border-color: rgba(33, 39, 54, 0.12);
   --form-background-color: #242424;
+  --faq-border-line-color: #4d4d4d;
+  --blog-post-border-color: black;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -91,8 +93,7 @@ a:active {
   max-width: 1200px;
   margin: auto;
 }
-.fixed{
+.fixed {
   width: 100%;
   position: fixed;
 }
-

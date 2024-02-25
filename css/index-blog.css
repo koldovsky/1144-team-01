@@ -41,7 +41,7 @@
   visibility: hidden;
 }
 .blog__post {
-  border: 1px solid black;
+  border: 1px solid var(--blog-post-border-color);
 }
 .blog__more {
   margin-top: 50px;
