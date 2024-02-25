@@ -1,9 +1,29 @@
 .history{
-    background-color: var(--background-color); 
+    background-color: var(--background-color);
+    width: 100%;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 130px;
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    z-index: 1; 
 }
 .history__title{
     font-size: 42px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 44px;
+    padding: 0 15px;
 }
 .history__text{
     font-size: 17px;
+}
+.history__card{
+    margin: auto;
+    padding: 50px 15px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 32%;
+    flex-direction: row;
 }
