@@ -1,7 +1,6 @@
 .history {
   background-color: var(--background-color);
   padding: 80px 0;
-  text-align: center;
 }
 .history__title {
   font-size: 36px;
@@ -14,6 +13,7 @@
 .history__description {
   font-size: 18px;
   margin-bottom: 40px;
+  color: var(--description-text-color);
 }
 .history__list {
   display: flex;
@@ -24,7 +24,7 @@
   width: 300px;
   margin: 0 20px 40px;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
   border-radius: 10px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
@@ -34,9 +34,11 @@
 .history-card__title {
   font-size: 20px;
   margin-bottom: 10px;
+  color: var(--title-color);
 }
 .history-card__description {
   font-size: 16px;
+  color: var(--text-color);
 }
 .history__link {
   margin-top: 40px;
@@ -48,7 +50,9 @@
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-family: BenchNine, sans-serif;
 }
 .history-link__button:hover {
   background-color: #ffffff;
+  color: var(--alternative-text-color);
 }
