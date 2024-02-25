@@ -3,49 +3,68 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: var(--text-color);
-  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.good-cigars-title__container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 50px;
 }
 .good-cigars__title {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-.good-cigars__titles-underscore {
-  margin-bottom: 40px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  color: var(title-color);
+  font-family: BenchNine, sans-serif;
 }
 .good-cigars__description {
-  font-size: 18px;
+  font-size: 19px;
+  text-align: center;
   margin-bottom: 60px;
+  color: var(--description-text-color);
 }
 .good-cigars-seed {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--background-color-seeds);
 }
 .good-cigars-seed__image img {
   max-width: 100%;
 }
 .good-cigars-seed__title {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 20px;
+  text-align: right;
+  font-family: BenchNine, sans-serif;
 }
 .good-cigars-seeds__description {
-  font-size: 16px;
+  font-size: 17px;
   max-width: 600px;
+  text-align: right;
+  font-family: Roboto, sans-serif;
 }
 .good-cigars-seed-quality {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--background-colbackground-color-quality);
 }
 .good-cigars-quality__image img {
   max-width: 100%;
 }
 .good-cigars-seed-quality__title {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 20px;
+  text-align: left;
+  font-family: BenchNine, sans-serif;
 }
 .good-cigars-seed-quality__description {
-  font-size: 16px;
+  font-size: 17px;
   max-width: 600px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
 }

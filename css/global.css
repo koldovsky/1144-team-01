@@ -22,6 +22,8 @@
   --form-background-color: #242424;
   --faq-border-line-color: #4d4d4d;
   --blog-post-border-color: black;
+  --background-color-seeds: rgb(63, 50, 41);
+  --background-color-quality: rgba(49, 53, 35, 0.95);
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
