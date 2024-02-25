@@ -12,6 +12,7 @@
 }
 .history__description {
   font-size: 18px;
+  text-align: center;
   margin-bottom: 40px;
   color: var(--description-text-color);
 }
@@ -26,7 +27,6 @@
   padding: 20px;
   background-color: var(--background-color);
   border-radius: 10px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 .history-card__image {
   margin-bottom: 20px;
@@ -55,4 +55,5 @@
 .history-link__button:hover {
   background-color: #ffffff;
   color: var(--alternative-text-color);
+  text-decoration: none;
 }
