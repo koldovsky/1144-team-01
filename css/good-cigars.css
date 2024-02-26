@@ -33,7 +33,7 @@
   background-color: var(--background-color-seeds);
 }
 .good-cigars-seed__image img {
-  max-width: 100%;
+  margin-bottom: 20px;
 }
 .good-cigars-seed__list {
   padding-top: 45px;
@@ -61,9 +61,9 @@
   background-color: var(--background-color-quality);
 }
 .good-cigars-quality__image img {
-  max-width: 100%;
+  margin-bottom: 20px;
 }
-.good-cigars-seed-quality__list {
+.good-cigars-quality__list {
   padding-top: 45px;
   padding-bottom: 45px;
   padding-left: 80px;
