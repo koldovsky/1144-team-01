@@ -1,0 +1,30 @@
+.tobacco-info {
+    background-image: url(../img/origins.webp);
+    background-color: var(--background-color);
+    background-origin: border-box;
+    background-attachment: fixed;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.tobacco-info__subtitle {
+    color: var(--description-text-color);
+    font-size: 19px;
+    text-align: center;
+}
+
+.tobacco-info__description {
+    color: var(--text-color);
+    font-size: 17px;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+.index__titles-underscore {
+    text-align: center;   
+}
