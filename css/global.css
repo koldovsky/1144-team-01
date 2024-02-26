@@ -53,7 +53,8 @@ h6 {
 }
 .index__titles-underscore {
   height: 32px;
-  width: 485px;
+  max-width: 485px;
+  min-width: 310px;
 }
 a {
   color: inherit;
