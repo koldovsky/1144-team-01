@@ -1,3 +1,6 @@
+
+
+
 .partners {
     padding-bottom: 95px;
     padding-top: 50px;
@@ -21,9 +24,10 @@
 }
 
 .carousel-image-partners {
-    width: 520px;
-    height: auto;
+    max-width: 100%; /* Ограничивает ширину изображения до ширины его контейнера */
+    height: auto; /* Позволяет высоте изображения автоматически изменяться в соответствии с его шириной */
 }
+
 
 .line {
     margin-top: -30px;
@@ -45,6 +49,7 @@
     margin-top: 25px;
     margin-left: 50px;
 }
+/*Rename this class, cuz we have the same in global.cs*/
 
 .partners-carousel-container {
     position: relative;
@@ -53,18 +58,18 @@
 
 .carousel-image {
     user-select: none;
-    position: relative; /* Изменено с absolute на relative */
 }
 
 .carousel {
     display: flex;
-    max-width: 1200px;
+    max-width: 100%;
     gap: 130px;
 }
 
 .carousel.sliding-transition {
     transition: transform 0.5s ease-in-out;
 }
+
 
 .arrow-button {
     margin-top: -100px;
