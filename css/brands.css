@@ -24,10 +24,6 @@
   color: var(--text-color);
   font-size: 16px;
 }
-.index__titles-underscore {
-  height: 32px;
-  width: 330px;
-}
 .brands__content {
   display: flex;
   align-items: center;
