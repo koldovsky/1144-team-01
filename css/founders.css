@@ -21,3 +21,9 @@
 .founders-descriptions {
     color: #d0c8b9;
 }
+.founders-john {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
