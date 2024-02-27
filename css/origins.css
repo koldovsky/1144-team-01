@@ -1,4 +1,4 @@
-.origins {
+.origin {
     background-image: url(../img/origins.webp);
     background-color: var(--background-color);
     background-origin: border-box;
@@ -12,7 +12,7 @@ h2 {
     text-align: center;
 }
 
-.origins__subtitle {
+.origin__subtitle {
     color: var(--description-text-color);
     font-size: 19px;
     text-align: center;
