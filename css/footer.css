@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--background-color);
     line-height: 28.5px;
+    border-color: var(--background-color);
 }
 .footer__nav {
     padding-right: 24px;
@@ -8,6 +9,14 @@
     padding-top: 65px;
     padding-bottom: 30px;
 }
+
+@media (min-width: 768px) {
+    .footer__nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 img.footer__logo-image {
     display: block;
     margin-left: auto;
@@ -26,7 +35,7 @@ img.footer__logo-image {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-hr {
+.footer__underline {
     margin-right: 24px;
     margin-left: 24px;
     height: 1px;
