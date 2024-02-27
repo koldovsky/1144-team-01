@@ -3,7 +3,8 @@ const rightArrow = document.querySelector(".right-arrow");
 const carousel = document.querySelector(".carousel");
 const images = document.querySelectorAll(".carousel-image");
 const totalImages = images.length;
-const transitionDuration = 0.8;
+const imageWidth = 520;
+const transitionDuration = 0.8; 
 
 const clonedImages = Array.from(images).map(image => image.cloneNode(true));
 
@@ -15,8 +16,6 @@ let isDragging = false;
 let startX;
 let dragOffset = 0;
 let currentIndex = 0;
-
-const imageWidth = carousel.clientWidth / totalImages;
 
 carousel.addEventListener("mousedown", (event) => {
   isDragging = true;
@@ -38,7 +37,7 @@ carousel.addEventListener("mouseup", () => {
   if (isDragging) {
     isDragging = false;
     carousel.style.transition = "transform " + transitionDuration + "s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
-
+    
     if (Math.abs(dragOffset) > imageWidth / 2) {
       currentIndex += dragOffset > 0 ? 1 : -1;
     }
@@ -78,7 +77,6 @@ function updateCarousel() {
   const transformValue = -currentIndex * imageWidth;
   carousel.style.transition = "transform " + transitionDuration + "s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
   carousel.style.transform = `translateX(${transformValue}px)`;
-  dragOffset = 0;
 
   setTimeout(() => {
     carousel.style.transition = "";
@@ -107,7 +105,7 @@ carousel.addEventListener("touchend", () => {
   if (isDragging) {
     isDragging = false;
     carousel.style.transition = "transform " + transitionDuration + "s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
-
+    
     if (Math.abs(dragOffset) > imageWidth / 2) {
       currentIndex += dragOffset > 0 ? 1 : -1;
     }
