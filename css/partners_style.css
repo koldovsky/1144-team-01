@@ -1,13 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body,
-html {
-    margin: 0;
-    padding: 0;
-}
-
 .partners {
     padding-bottom: 95px;
     padding-top: 50px;
@@ -31,8 +21,7 @@ html {
 }
 
 .carousel-image-partners {
-    width: 520px;
-    /* або будь-яка інша фіксована ширина */
+    max-width: 100%;
     height: auto;
 }
 
@@ -56,7 +45,6 @@ html {
     margin-top: 25px;
     margin-left: 50px;
 }
-/*Rename this class, cuz we have the same in global.cs*/
 
 .partners-carousel-container {
     position: relative;
@@ -65,18 +53,23 @@ html {
 
 .carousel-image {
     user-select: none;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
 }
 
 .carousel {
     display: flex;
-    max-width: 1200px;
-    gap: 130px;
+    max-width: 100%;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .carousel.sliding-transition {
     transition: transform 0.5s ease-in-out;
 }
-
 
 .arrow-button {
     margin-top: -100px;
@@ -141,4 +134,17 @@ html {
     font-weight: bold;
     font-size: 17px;
     color: white;
+}
+
+@media (max-width: 767px) {
+  .cigarette {
+    flex-direction: column;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .wrapper {
+    max-width: none;
+  }
 }
