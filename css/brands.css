@@ -1,7 +1,7 @@
 .brands {
   height: 107vh;
   flex-direction: column;
-  background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url('../img/brands/backgroung-brand.webp');
+  background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url('../img/brands/backgroung-brand.webpgit');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,3 +87,32 @@
   background: linear-gradient(rgba(33, 32, 32, 0.5), rgba(33, 32, 32, 0.5));
   margin-top: 10px;
 }
+/* @media (max-width: 854px){
+  .brand__description
+  {
+    font-size: 10px;
+  }
+  
+} */
+@media (min-width: 1200px){
+ 
+  
+
+}
+@media (min-width: 992px){
+ 
+  
+}
+@media (min-width: 768px){
+  
+}
+@media (min-width: 480px){
+  
+}
+@media (min-width: 320px){
+  
+}
+
+
+
+
