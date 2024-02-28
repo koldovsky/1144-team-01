@@ -2,7 +2,15 @@
 @import url(header.css);
 @import url(about.css);
 @import url(brands.css);
-@import url(blog.css);
-@import url(style_block3-4.css);
+@import url(index-blog.css);
+@import url(faq.css);
+@import url(partners_style.css);
 @import url(history.css);
 @import url(good-cigars.css);
+@import url(contacts.css);
+@import url(footer.css);
+@import url(contact-form.css);
+@import url(coop-options.css);
+@import url(origins.css);
+@import url(cooperation-with-us.css);
+@import url(founders.css);

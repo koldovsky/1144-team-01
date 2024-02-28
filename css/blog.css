@@ -1,18 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap");
-
-.blog {
-  background-color: darkgray;
+@import url(global.css);
+@import url(header.css);
+@import url(footer.css);
+.header {
+  background-image: none;
+  background-color: var(--background-color);
 }
-.blog__content {
-  text-align: center;
+.main {
+  background-color: var(--background-color);
+  padding: 90px 24px;
 }
-.blog__title{
-    font-family: BenchNine;
-    color: rgb(197, 163, 92);
+.blog__title {
+  color: var(--text-color);
+  font-size: 34px;
+  letter-spacing: 1.02px;
+  font-weight: 700;
 }
-.blog__post{
-    border: 1px solid black;
+.blog__posts {
+  margin: auto;
+  margin-top: 45px;
+  height: 450px;
+  border: 1px solid var(--blog-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.blog__more{
-    text-align: center;
+.blog__posts-nofeed {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 600;
+}
+.blog__posts-content {
+  visibility: hidden;
 }

@@ -10,27 +10,32 @@
       href="img/shortcut-icon.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="css/blog.css" />
   </head>
   <body>
     <header class="header">
       <nav data-include="header-nav.partial.html"></nav>
     </header>
-    <main>
-      <div style="text-align: center;" class="blog__solo-content">
-        <h1 class="blog__solo-title">Blog</h1>
+    <main class="main">
+      <div style="text-align: center" class="blog__content">
+        <h1 class="blog__title">Blog</h1>
       </div>
-      <div class="blog__solo-posts">
-        <div style="border: 1px solid black" class="blog__post">
-          <p>User 1</p>
-          <p>Post 1</p>
-        </div>
-        <div style="border: 1px solid black" class="blog__post">
-          <p>User 2</p>
-          <p>Post 2</p>
+      <div class="blog__posts container">
+        <div class="blog__posts-nofeed">No blog posts yet...</div>
+        <div class="blog__posts-content">
+          <article class="blog__post">
+            <p>User 1</p>
+            <p>Post 1</p>
+          </article>
+          <article class="blog__post">
+            <p>User 2</p>
+            <p>Post 2</p>
+          </article>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer data-include="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script type="module" src="./js/blog.js"></script>
   </body>
 </html>
