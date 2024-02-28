@@ -2,34 +2,66 @@
     flex-direction: column;
     background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url("../img/contact-form/smoke-and-cigar.webp");
     background-position: center;
-    background-repeat: no-repeat;
-    margin-right: auto;
-    margin-left: auto;
-    background-size: 100%;
+    margin-inline: auto;
+    background-size: cover;
+    height: 170vw;
+    max-height: 650px;
 }
 
 .main-area {
-    width: 60%;
-    background-color:var(--background-color); 
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
+    width: 90%;
+    max-height: 650px;
+    max-width: 700px;
+    background-color: var(--background-color);
+    margin-inline: auto;
     text-align: center;
-    padding: 5%;
+    position: relative;top:18%;
+    padding: 35px 25px 40px 25px;
 }
 
+
 .contact__title {
-    font-size: 55px;
-    padding-bottom: 7%;
+    font-size: 33px;
+    padding: 0 0 5% 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .contact__description {
-    font-size: 18px;
-    padding: 7%;
+    font-size: 19px;
+    padding: 3% 3% 5% 3%;
+    line-height: 27px;
+}
+
+.request-area {
+    width: 90%;
+    margin: 0 5% 0 5%;
 }
 
 .contact__button {
-margin-top: 30px
+    margin-top: 23px; 
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
-
+@media (min-width: 768px) {
+    .main-area{
+        width: 45%;
+    }
+    .contact__title {
+        font-size: 40px;
+    }
+    .contact__description{
+        padding: 5% 7% 5% 7%;
+    }
+}
+@media (min-width: 992px) {
+    .contact__title {
+        font-size: 43px;
+    }
+}
+@media (min-width:1280px) {
+    .main-area { 
+    max-width: 560px;
+    }
+}

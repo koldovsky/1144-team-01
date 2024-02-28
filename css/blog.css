@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(header.css);
+@import url(footer.css);
 .header {
   background-image: none;
   background-color: var(--background-color);
