@@ -3,11 +3,11 @@
     background-color: var(--background-color);
     background-origin: border-box;
     background-attachment: fixed;
-    padding: 95px, 0px, 100px;
+    padding: 95px 0px 100px;
 
 }
 
-h2 {
+.origin__title {
     font-size: 46px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ h2 {
 .description {
     max-width: 600px;
     margin: auto;
-    padding: 14px;
+    padding: 10px;
     display: flex;
 }
 
@@ -32,7 +32,16 @@ h2 {
 
 }
 
-.index__titles-underscore {
+.origin .index__titles-underscore {
     text-align: center;  
     margin: auto; 
+    margin-top: 25px;
+}
+@media (min-width: 350px) {
+    .origin__title{
+        font-size: 34px;
+    }
+    .origin {
+        background-color: var(--background-color);
+    }
 }
