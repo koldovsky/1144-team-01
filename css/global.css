@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=BenchNine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -15,7 +16,7 @@
   --background-color: #1b191a;
   --title-color: #c5a35c;
   --button-highlight-color: #c5a35c;
-  --alternative-button-highlight-color: #947a44;
+  --alternative-button-highlight-color: rgb(63, 50, 41);
   --description-text-color: #d0c8b9;
   --faq-divider-color: #4d4d4d;
   --blog-border-color: rgba(33, 39, 54, 0.12);
@@ -54,7 +55,6 @@ h6 {
 .index__titles-underscore {
   height: 32px;
   max-width: 485px;
-  min-width: 310px;
 }
 a {
   color: inherit;

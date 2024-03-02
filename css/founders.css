@@ -21,3 +21,24 @@
 .founders-descriptions {
     color: #d0c8b9;
 }
+.founders-john {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.founders-jack {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.founders-hugh {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.founders-foto {
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;
+    /*justify-content: space-between;*/
+}
