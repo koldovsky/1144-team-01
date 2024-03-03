@@ -1,9 +1,16 @@
 .history {
   background-color: var(--background-color);
+}
+.history__content {
   padding-top: 90px;
   padding-bottom: 90px;
   padding-left: 24px;
   padding-right: 24px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
 }
 .history-title__container {
   padding-left: 15px;
@@ -52,8 +59,6 @@
   min-height: 32px;
   max-height: 290px;
   overflow: hidden;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 .history-card__title {
   font-size: 22px;
