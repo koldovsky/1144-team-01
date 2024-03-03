@@ -19,26 +19,53 @@
     font-family: BenchNine, sans-serif;
 }
 .founders-descriptions {
-    color: #d0c8b9;
+    color:  var(--description-text-color);
 }
-.founders-john {
+.founders-artticle {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-.founders-jack {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.founders-hugh {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    align-items: center;  
+    background:var(--header-nav-background);
+    width: 300px;
+    padding: 3% 3%;
+    margin: 1% 1%;
 }
 .founders-foto {
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;
-    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.face-john {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%;
+    background: url(../img/founders/john_bomstrom.webp) no-repeat -30px 0;
+    background-size: auto 80px;
+}
+.face-jack {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    background: url(../img/founders/jack_bomstrom.webp) no-repeat -30px 0;
+    background-size: auto 80px;
+}
+.face-hugh {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    background: url(../img/founders/hugh_bomstrom.webp) no-repeat -4px 0; 
+    background-size: auto 120px;
+}
+.founders-john-title {
+    padding-top: 18px;
+}
+.founders-john-description {
+    color: var(--text-color-light);
+}
+.border_2yy,
+.logo_2gS {
+    color: var(--description-text-color); 
+    fill: var(--description-text-color);
 }
