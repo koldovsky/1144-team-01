@@ -2,7 +2,7 @@
     flex-direction: column;
     background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url("../img/contact-form/smoke-and-cigar.webp");
     background-position: center;
-    margin-inline: auto;
+    margin: auto;
     background-size: cover;
     height: 170vw;
     max-height: 650px;
@@ -10,58 +10,66 @@
 
 .main-area {
     width: 90%;
-    max-height: 650px;
     max-width: 700px;
-    background-color: var(--background-color);
-    margin-inline: auto;
+    background-color: var( --alternative-background-color);
+    margin: auto;
     text-align: center;
-    position: relative;top:18%;
-    padding: 35px 25px 40px 25px;
+    position: relative;
+    top: 18%;
+    padding: 35px 25px;
 }
-
 
 .contact__title {
     font-size: 33px;
-    padding: 0 0 5% 0;
+    padding-bottom: 5%;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .contact__description {
     font-size: 19px;
-    padding: 3% 3% 5% 3%;
+    padding: 3% 5%;
     line-height: 27px;
+    color: var(--description-text-color);
 }
 
 .request-area {
     width: 90%;
-    margin: 0 5% 0 5%;
+    margin: 0 5%;
 }
 
 .contact__button {
-    margin-top: 23px; 
+    margin-top: 23px;
     font-size: 16px;
     letter-spacing: 1px;
+    font-weight: bold;
+    background-color: var(--title-color);
+    transition: ease-in-out all 0.2s;
+}
+
+.contact__button:hover, .contact__button:active {
+    background-color: var(--alternative-button-highlight-color);
 }
 
 @media (min-width: 768px) {
-    .main-area{
+    .main-area {
         width: 45%;
+    }
+    .contact__description {
+        padding: 5% 7%;
     }
     .contact__title {
         font-size: 40px;
     }
-    .contact__description{
-        padding: 5% 7% 5% 7%;
-    }
 }
+
 @media (min-width: 992px) {
     .contact__title {
-        font-size: 43px;
+        font-size: 45px;
+    }
+    .main-area{
+        padding: 40px 30px;
+        max-width: 560px;
     }
 }
-@media (min-width:1280px) {
-    .main-area { 
-    max-width: 560px;
-    }
-}
+
