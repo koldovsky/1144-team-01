@@ -1,37 +1,19 @@
-.contacts__container {
+.contacts {
     background-image: url("../img/background-gray-wall.webp");
+    border-image-repeat: stretch;
+    border-color: var(--background-color);
+    line-height: 28.5px;
+}
+.contacts__container {
     padding-right: 24px;
     padding-left: 24px;
     padding-top: 90px;
     padding-bottom: 90px;
-    line-height: 28.5px;
-    border-image-repeat: stretch;
-    border-color: var(--background-color);
 }
 
 .contacts__content {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
     max-width: 1200px;
     margin-bottom: 50px;
-}
-
-@media (min-width: 768px) {
-
-    .contacts__container {
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .contacts__content, .contacts__form {
-        padding-left: 15px;
-        padding-right: 15px;
-        min-width: 337px;
-    }
-
 }
 
 .contacts__title {
@@ -53,7 +35,6 @@
 }
 
 .contacts__info-name {
-    margin-top: 25px;
     margin-bottom: 5px;
     font-family: "BenchNine", sans-serif;
     color: var(--title-color);
@@ -62,6 +43,7 @@
 
 .contact__item-address, .contact__item-phone {
     font-size: 17px;
+    margin-top: 25px;
 }
 
 .contacts__map {
@@ -92,7 +74,17 @@
     border: none;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
+    color: white;
 }
+
+.contacts__form-nonrequired {
+    appearance: none;
+    display: block;
+    text-align: start;
+    height: 150px;
+}
+
+
 
 .contact__button {
     margin-top: 56px;
@@ -107,4 +99,44 @@
     width: 100%;
     text-transform: uppercase;
     font-size: 16px;
+}
+
+@media (min-width: 768px) {
+
+    .contacts__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 -10px;
+    }
+
+    .contacts__content, .contacts__form {
+        flex-basis: 50%;
+        margin: 0 10px;
+    }
+
+    .contacts__form {
+        padding-top: 5%; /* 10% от высоты блока */
+        padding-bottom: 27%; /* 10% от высоты блока */
+        padding-left: 10%; /* 5% от ширины блока */
+        padding-right: 10%; /* 5% от ширины блока */
+
+    }
+
+    .contacts__info-name {
+        width: 105px;
+        padding-top: 15px;
+    }
+
+    .contact__item-address, .contacts__item-phone {
+        display: flex;
+       
+        align-self: center;
+    }
+    .contacts__item-phone-email {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
