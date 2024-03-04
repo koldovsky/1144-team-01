@@ -35,13 +35,18 @@
 .origin .index__titles-underscore {
     text-align: center;  
     margin: auto; 
-    margin-top: 25px;
 }
-@media (min-width: 350px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .origin__title{
         font-size: 34px;
     }
     .origin {
         background-color: var(--background-color);
     }
+}
+@media (min-width: 768px) and (max-width: 1020px) {
+    .origin__title{
+        font-size: 40px;
+    }
+    
 }
