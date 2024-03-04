@@ -131,6 +131,7 @@
 
 .pricing__item-order:hover, .pricing__item-order:active {
     transition: ease-in-out all 0.2s;
+    color: var(--text-color);
     background-color: var(--alternative-button-highlight-color);
     border-color: var(--alternative-button-highlight-color);
 }
