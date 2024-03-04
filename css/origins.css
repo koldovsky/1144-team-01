@@ -4,37 +4,44 @@
     background-origin: border-box;
     background-attachment: fixed;
     padding: 95px 0px 100px;
+    background-position: center;
+
 
 }
 
 .origin__title {
     font-size: 46px;
     text-align: center;
+    
 }
 
 .origin__subtitle {
     color: var(--description-text-color);
     font-size: 19px;
     text-align: center;
+    margin: 20px 0;
 }
 
 .description {
-    max-width: 600px;
-    margin: auto;
-    padding: 10px;
+    max-width: 800px;
+    text-align: center;
+    margin: 30px auto;
     display: flex;
+    padding: 10px;
 }
 
 .description__article {
     color: var(--text-color);
     font-size: 17px;
     text-align: center;
+    line-height: 1.6;
 
 }
 
 .origin .index__titles-underscore {
     text-align: center;  
-    margin: auto; 
+    margin: auto;
+    
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .origin__title{
