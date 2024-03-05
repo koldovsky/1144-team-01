@@ -1,14 +1,8 @@
 .cooperation {
     background-color: var(--background-color);
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0;
 }
-
-.underscore-image {
-    display: flex;
-    justify-content: center;
-}
-
 .cooperation__title {
     font-size: 34px;
     font-weight: bold;
@@ -16,21 +10,18 @@
     padding: 25px 0;
     letter-spacing: 1px;
 }
-
 .cooperation__description {
     font-size: 19px;
     padding: 18px 30px;
     color: var(--description-text-color);
     line-height: 30px;
 }
-
 .cooperation-options__description {
     width: 68%;
     margin: auto;
     line-height: 27px;
     font-size: 17px;
 }
-
 .cooperation__subtitle {
     font-size: 22px;
     font-weight: bold;
@@ -39,42 +30,36 @@
     margin-bottom: 25px;
     letter-spacing: 1px;
 }
-
 .container {
     display: flex;
-    margin: auto;
-    justify-content: space-around;
-    gap: 30px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    gap: 30px;
     padding-top: 50px;
 }
-
 .cooperation-consulting,
 .cooperation-tobacco,
 .cooperation-cigar {
     padding: 60px 0 120px;
     width: 90%;
 }
-
 .cooperation-consulting {
-    background: linear-gradient(rgba(8, 7, 7, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/man-in-field.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/man-in-field.webp");
     background-position: center;
     background-size: cover;
 }
-
 .cooperation-tobacco {
-    background: linear-gradient(rgba(8, 7, 7, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/tobacco-woman.webp");
-    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/tobacco-woman.webp");
+    background-position: top;
     background-size: cover;
 }
-
 .cooperation-cigar {
-    background: linear-gradient(rgba(8, 7, 7, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/cigars-pack.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/cigars-pack.webp");
     background-position: center;
     background-size: cover;
 }
-
 .cooperation__button, .cooperation__button:visited {
     background-color: var(--button-highlight-color);
     padding: 14px 18px;
@@ -87,13 +72,15 @@
     font-weight: bold;
     transition: ease-in-out all 0.2s;
 }
-
 .cooperation__button:hover, .cooperation__button:active{
     transition: ease-in-out all 0.2s;
     background-color: var(--alternative-button-highlight-color);
     text-decoration: none;
 }
-
+.underscore-image {
+    display: flex;
+    justify-content: center;
+}
 @media (min-width: 417px) {
     .cooperation-consulting,
     .cooperation-tobacco,
@@ -101,23 +88,19 @@
         padding: 70px 0 130px 0;
     }
 }
-
 @media (min-width: 550px) {
     .cooperation__description {
         padding: 18px 30px 0 30px;
     }
-
     .cooperation-options__description {
         width: 75%;
     }
-
     .cooperation-consulting,
     .cooperation-tobacco,
     .cooperation-cigar {
         width: 93%;
     }
 }
-
 @media (min-width: 768px) {
     .cooperation__title {
         font-size: 40px;
@@ -125,24 +108,21 @@
     .cooperation__subtitle {
         font-size: 26px;
     }
-    
     .cooperation-consulting,
     .cooperation-tobacco,
     .cooperation-cigar {
         padding: 80px 0 150px 0;
     }
 }
-
 @media (min-width: 992px) {
     .cooperation__title {
         font-size: 45px;
     }
-
     .cooperation-consulting,
     .cooperation-tobacco,
     .cooperation-cigar {
         padding: 110px 0 175px 0;
         width: 94%;
-        max-width: 1700px;
+        
     }
 }
