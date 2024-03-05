@@ -80,15 +80,19 @@
 }
 
 .tobacco-cooperation .learn-more-link__button {
-    font-size: 16px;
+    font-size: 17px;
     padding: 14px 18px; 
     transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.contact-us-link__button {
-    font-size: 16px;
-    padding: 14px 18px; 
-
+.tobacco-cooperation .contact-us-link__button {
+    font-size: 17px;
+    padding: 14px 18px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
