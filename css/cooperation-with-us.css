@@ -1,25 +1,49 @@
 .tobacco-cooperation {
     background-image: url(../img/background-gray-wall.webp);
     background-color: var(--background-color);
-    
+    padding: 95px 0px 100px;
+    text-align: center;
+}
+
+.tobacco-cooperation .index__titles-underscore {
+    text-align: center;  
+    margin: 20px auto;
 }
 
 .tobacco-cooperation__title {
     font-size: 46px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .tobacco-cooperation__subtitle {
     font-size: 19px;
     text-align: center;
     color: var(--description-text-color);
+    margin: 30px 0px;
+}
+
+.key-difference {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+
+.key-item {
+    text-align: center;
+    width: 100%;
 }
 
 .cooperation-logo {
-    max-width: 100%;
-    max-height: 100%;
-   
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    
 }
-.tobacco-cooperation__logo-container {
+.item-box {
     background-color: var(--alternative-background-color);
     border-radius: 50%;
     width: 100px;
@@ -28,13 +52,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.tobacco-cooperation__key-difference {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    margin: 0 auto 10px;
+    
 }
 
 .key-difference__title {
@@ -47,4 +67,47 @@
     font-size: 17px;
     color: var(--text-color);
     margin-top: 5px;
+}
+
+.tobacco-cooperation__button {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 14px 18px; 
+    transition: all 0.3s ease;
+}
+
+.tobacco-cooperation .learn-more-link__button {
+    font-size: 17px;
+    padding: 14px 18px; 
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tobacco-cooperation .contact-us-link__button {
+    font-size: 17px;
+    padding: 14px 18px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .tobacco-cooperation__title {
+        font-size: 34px;
+    }
+    .key-difference__title {
+        font-size: 22px;
+    }
+    .cooperation-logo {
+        width: 40px;
+        height: 40px;
+    }
+    .item-box {
+        width: 70px;
+        height: 70px;
+    }
 }

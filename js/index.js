@@ -3,4 +3,5 @@ document.addEventListener("partialsLoaded", () => {
     import("./faq.js");
     import("./partners.js");
     import("./testimonials.js");
+    import("./gallery.js");
   });
