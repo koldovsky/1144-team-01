@@ -1,10 +1,6 @@
 @import url(global.css);
 @import url(header.css);
 @import url(footer.css);
-.header {
-  background-image: none;
-  background-color: var(--background-color);
-}
 .main {
   background-color: var(--background-color);
   padding: 90px 24px;
