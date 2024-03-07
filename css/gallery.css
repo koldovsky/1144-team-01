@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/img/gallery/backround-gallery.webp);
+    background-image: url(../img/gallery/backround-gallery.webp);
+    background-size: cover;
 }
 .gallery__content{
     display: flex;
