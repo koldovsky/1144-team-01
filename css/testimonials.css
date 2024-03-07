@@ -19,6 +19,17 @@
     font-family: BenchNine, sans-serif;
     padding-bottom: 20px;
 }
+.testimonials-carousel {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    min-height: 400px;
+}
+.testimonials-carousel__track-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+}
 .testimonials-descriptions {
     color:  var(--description-text-color);
     padding-top: 20px;
@@ -30,7 +41,7 @@
     text-align: center;
     align-items: center;  
     background: var(--background-color-artticle);
-    width: 300px;
+    width: 3fr;
     padding: 3% 3%;
     margin: 1% 1%;
 }
@@ -47,4 +58,12 @@
 }
 .testimonials-carousel__slide-text {
     color: var(--text-color-light);
+}
+.testimonials-carousel-button__left,
+.testimonials-carousel-button__right {
+    height: 20px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 50%;
+    background: var(--button-color);
 }
