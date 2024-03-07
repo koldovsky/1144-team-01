@@ -68,3 +68,13 @@
   transition: background-color 0.5s, color 0.5s;
   text-decoration: none;
 }
+@media (min-width: 992px) {
+  .blog__title {
+    font-size: 46px;
+  }
+}
+@media (min-width: 768px) {
+  .blog{
+    padding-top: 92.5px;
+  }
+}
