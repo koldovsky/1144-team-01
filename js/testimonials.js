@@ -10,10 +10,10 @@ let currentIdx = 0;
 function renderSlide() {
     const slideContainer = document.querySelector('.testimonials-carousel__track-container');
     slideContainer.innerHTML = slides[currentIdx];
-    if (window.matchMedia('(min-width: 768px)').matches) {
+    if (window.matchMedia('(min-width: 568px)').matches) {
         const secondSlideIdx = currentIdx + 1 >= slides.length ? 0 : currentIdx + 1;
         slideContainer.innerHTML += slides[secondSlideIdx];
-        if (window.matchMedia('(min-width: 980px)').matches) {
+        if (window.matchMedia('(min-width: 780px)').matches) {
             const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
             slideContainer.innerHTML += slides[thirdSlideIdx];
         }
@@ -31,8 +31,6 @@ function prevSlide() {
     currentIdx = currentIdx - 1 <  0 ? slides.length - 1 : currentIdx - 1;
     renderSlide();
 }
-
-// setInterval(nextSlide, 3000);
 
 const btnNext = document.querySelector('.testimonials-carousel-button__right');
 btnNext.addEventListener('click', nextSlide);

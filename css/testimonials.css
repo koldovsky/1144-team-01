@@ -20,9 +20,9 @@
     padding-bottom: 20px;
 }
 .testimonials-carousel {
-    display: grid;
-    grid-template-columns: 20px 1fr 20px;
-    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .testimonials-carousel__track-container {
     display: flex;
@@ -62,8 +62,6 @@
 .testimonials-carousel-button__left,
 .testimonials-carousel-button__right {
     height: 20px;
-    justify-content: center;
-    align-self: center;
-    border-radius: 50%;
-    background: var(--button-color);
+    width: 20px;
+    border-radius: 70%;
 }
